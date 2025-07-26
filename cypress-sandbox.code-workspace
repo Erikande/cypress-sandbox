@@ -12,15 +12,15 @@
     "terminal.integrated.defaultProfile.linux": "bash"
   },
   "extensions": {
-    "recommendations": [
-      "esbenp.prettier-vscode",
-      "dbaeumer.vscode-eslint",
-      "formulahendry.auto-close-tag",
-      "formulahendry.auto-rename-tag",
-      "cypress-snippets",
-      "cypress-helper"
-    ]
-  },
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "andrewmcodes.cypress-snippets",
+    "cypress-io.cypress-helper"
+  ]
+},
   "name": "Cypress Sandbox (Interview Ready)",
   "description": "VSCode Workspace with Cypress + Gemini guidance for technical session prep"
 }
