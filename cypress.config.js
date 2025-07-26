@@ -1,11 +1,11 @@
 // cypress.config.js
-import { defineConfig } from 'cypress';
+const { defineConfig } = require('cypress');
 
-export default defineConfig({
+module.exports = defineConfig({
   e2e: {
-    // eslint-disable-next-line no-unused-vars
-    setupNodeEvents(_on, _config) {
-      // implement node event listeners here
+    baseUrl: 'https://www.saucedemo.com',
+    setupNodeEvents(on, config) {
+      // plugins can go here later if needed
     },
   },
 });
