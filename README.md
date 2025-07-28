@@ -1,23 +1,19 @@
-# Cypress Sandbox – Interview Prep
+# 🧪 Cypress Sandbox – Interview Practice Suite
 
-This project contains a local Cypress testing environment used for technical interview practice. It includes:
+This project provides a fully configured Cypress test environment for front-end UI automation practice. It’s designed as a personal sandbox to build confidence and fluency with Cypress in preparation for technical interviews.
 
-- Cypress install/config
-- Sample test spec
-- Clean VS Code setup
-- GitHub integration
+Included in this environment:
 
-## Getting Started
+- Cypress 12+ installed and configured  
+- UI tests targeting [SauceDemo (v1)](https://www.saucedemo.com/v1/)  
+
+---
+
+## 🧰 Getting Started
+
+To install dependencies and launch Cypress:
 
 ```bash
 npm install
 npx cypress open
-```
-
-Then commit and push:
-
-```bash
-git add .gitignore README.md
-git commit -m "Add .gitignore and README"
-git push
 ```
